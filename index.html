@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Portfolio</title>
    <link rel="stylesheet" href="style/style.css">
+   <!-- font awsome -->
+   <script src="https://kit.fontawesome.com/040f2bdf68.js" crossorigin="anonymous"></script>
    <!-- email font -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +21,14 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,350;1,200&display=swap"
       rel="stylesheet">
+   <!-- introduce my self font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-   
+
    <div class="main-container">
       <div class="intro-container">
          <nav class="nav">
@@ -28,21 +36,44 @@
                <div class="email" id="email">
                   jahandideh.2083@gmail.com
                </div>
-               <button class="copy-btn"
-               onclick="copyBtn()"
-               >Copy</button>
+               <button class="copy-btn" onclick="copyBtn()">Copy</button>
             </div>
             <div class="cv-container">
                <a href="" class="cv">CV</a>
             </div>
             <!-- links -->
-            <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2BKhbmwDlR32%2F2Y7ogYALpg%3D%3D" class="social-links">LinkdIn</a>
-            <a href="" class="social-links">Github</a>
-            <a href="" class="social-links">Instagram</a>
+            <div class="social-links-container">
+               <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2BKhbmwDlR32%2F2Y7ogYALpg%3D%3D"><i class="fa-brands fa-linkedin fa-lg mq-icon" style="color: #000000;"></i></a>
+               <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2BKhbmwDlR32%2F2Y7ogYALpg%3D%3D"
+               class="social-links">LinkdIn</a>
+
+               <a href=""><i class="fa-brands fa-square-github fa-lg mq-icon" style="color: #000000;"></i></a>
+               <a href="" class="social-links"> / Github /</a>
+               
+               <i class="fa-brands fa-square-instagram fa-lg mq-icon" style="color: #000000;"></i>
+               <a href="" class="social-links">Instagram</a>
+            </div>
          </nav>
       </div>
+      <!-- introduce my self -->
+      <div class="my-picture-container">
+         <img src="design/20240115_191638.jpg" alt="hassan" class="my-picture">
+      </div>
+      <div class="name">
+         Hassan Jahandideh👋
+      </div>
+      <div class="introducing-mySelf">
+         Building modern, <br> interactive, and <br> user-friendly websites.
+      </div>
+      <!-- latest project -->
+      <div class="latest-project-container">
+         <a href="" class="latest-project">Latest Project</a>
+      </div>
+      
    </div>
 
-<script src="script/index.js"></script>
+
+   <script src="script/index.js"></script>
 </body>
+
 </html>

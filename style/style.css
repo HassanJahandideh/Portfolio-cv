@@ -4,12 +4,9 @@ padding: 0;
 }
 
 .main-container {
-
+   display: block;
 }
 
-.nav {
-   display: ;
-}
 
 .intro-container {
    background-color: rgb(233, 231, 231);
@@ -19,7 +16,7 @@ padding: 0;
 
 .email-container {
    position: absolute;
-   border: 1px solid rgb(230, 229, 229);
+   border: 1px solid rgb(226, 224, 224);
    margin: 20px 0 0 40px;
    border-radius: 50px;
    display: flex;
@@ -70,6 +67,9 @@ button {
    text-decoration: underline black;
 }
 
+.social-links-container {
+   margin-right: 40px;
+}
 .social-links {
    display: inline;
    float: right;
@@ -84,5 +84,96 @@ button {
 }
 .social-links:hover {
    text-decoration: underline;
-   transition: 0.3s;
+}
+.mq-icon {
+   display: none;
+}
+
+.introduce-container {
+
+}
+.my-picture-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -600px;
+}
+.my-picture {
+   width: 150px;
+   border-radius: 50%;
+}
+.name {
+   background-color: white;
+   width: 119px;
+   padding: 10px;
+   border-radius: 50px;
+   position: absolute;
+   display: flex;
+   margin-left: 510px;
+   margin-top: -100px;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 13px;
+   transform: skewY(-8deg);
+   animation: moveBorder 2s infinite;
+}
+@keyframes moveBorder {
+   0% {
+      transform: translateY(0) skewY(-10deg);
+   }
+
+   50% {
+      transform: translateY(10px) skewY(-10deg);
+   }
+
+   100% {
+      transform: translateY(0) skewY(-10deg);
+   }
+}
+.introducing-mySelf {
+   margin-top: 20px;
+   text-align: center;
+   font-family: "Rubik", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 50px;
+}
+
+.latest-project-container {
+   margin-top: 60px;
+   text-align: center;
+}
+.latest-project {
+   border: none;
+   background-color: rgb(44, 44, 44);
+   color: white;
+   padding: 25px;
+   border-radius: 50px;
+   text-decoration: none;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 200;
+   font-style: normal;
+}
+.latest-project:hover {
+   text-decoration: underline;
+}
+
+@media only screen and (max-width:730px) {
+   .social-links {
+      display: none;
+   }
+   .mq-icon {
+      display: inline-flex;
+      margin-top: 20px;
+      float: right;
+      margin-right: 10px;
+   }
+
+   .email-container, .cv-container {
+      display: none;
+   }
 }
