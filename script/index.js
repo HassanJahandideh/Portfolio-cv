@@ -10,5 +10,13 @@ function copyBtn() {
 
    document.body.removeChild(tempInput);
 
-   alert('Email Copied!');
+   // changing copy text after clicking
+   const copyButton = document.querySelector('.copy-btn')
+   copyButton.addEventListener('click', () => {
+      copyButton.innerHTML = 'Copied!'
+   });
+   setTimeout(() => {
+      copyButton.innerText = 'Copy';
+   }, 2000)
 }
+
