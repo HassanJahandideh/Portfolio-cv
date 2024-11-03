@@ -1,6 +1,6 @@
 body {
-margin: 0;
-padding: 0;
+   margin: 0;
+   padding: 0;
 }
 
 .main-container {
@@ -21,6 +21,7 @@ padding: 0;
    border-radius: 50px;
    display: flex;
 }
+
 .email {
    font-size: 13px;
    font-family: "Roboto Condensed", sans-serif;
@@ -36,11 +37,12 @@ padding: 0;
 button {
    cursor: pointer;
 }
+
 .copy-btn {
    background-color: white;
    border: none;
    border-radius: 50px;
-   padding:9px 35px 9px 35px;
+   padding: 9px 35px 9px 35px;
    font-family: "Poppins", sans-serif;
    font-weight: 600;
    font-style: normal;
@@ -52,6 +54,7 @@ button {
    margin-top: 31px;
    margin-left: 340px;
 }
+
 .cv {
    background-color: white;
    border: none;
@@ -63,6 +66,7 @@ button {
    text-decoration: none;
    color: black;
 }
+
 .cv:hover {
    text-decoration: underline black;
 }
@@ -70,6 +74,7 @@ button {
 .social-links-container {
    margin-right: 40px;
 }
+
 .social-links {
    display: inline;
    float: right;
@@ -82,26 +87,29 @@ button {
    font-style: normal;
    color: black;
 }
+
 .social-links:hover {
    text-decoration: underline;
 }
+
 .mq-icon {
    display: none;
 }
 
-.introduce-container {
+.introduce-container {}
 
-}
 .my-picture-container {
    display: flex;
    align-items: center;
    justify-content: center;
    margin-top: -600px;
 }
+
 .my-picture {
    width: 150px;
    border-radius: 50%;
 }
+
 .name {
    background-color: white;
    width: 119px;
@@ -119,6 +127,7 @@ button {
    transform: skewY(-8deg);
    animation: moveBorder 2s infinite;
 }
+
 @keyframes moveBorder {
    0% {
       transform: translateY(0) skewY(-10deg);
@@ -132,6 +141,7 @@ button {
       transform: translateY(0) skewY(-10deg);
    }
 }
+
 .introducing-mySelf {
    margin-top: 20px;
    text-align: center;
@@ -146,6 +156,7 @@ button {
    margin-top: 60px;
    text-align: center;
 }
+
 .latest-project {
    border: none;
    background-color: rgb(44, 44, 44);
@@ -158,6 +169,7 @@ button {
    font-weight: 200;
    font-style: normal;
 }
+
 .latest-project:hover {
    text-decoration: underline;
 }
@@ -166,6 +178,7 @@ button {
    .social-links {
       display: none;
    }
+
    .mq-icon {
       display: inline-flex;
       margin-top: 20px;
@@ -173,7 +186,8 @@ button {
       margin-right: 10px;
    }
 
-   .email-container, .cv-container {
+   .email-container,
+   .cv-container {
       display: none;
    }
 }

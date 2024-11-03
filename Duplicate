@@ -1,0 +1,39 @@
+<nav class="nav-m">
+            <div class="email-container">
+               <div class="email" id="email">
+                  jahandideh.2083@gmail.com
+               </div>
+               <button class="copy-btn" onclick="copyBtn()">Copy</button>
+            </div>
+            <div class="cv-container">
+               <a href="" class="cv">CV</a>
+            </div>
+            <!-- links -->
+            <div class="social-links-container">
+               <a
+                  href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2BKhbmwDlR32%2F2Y7ogYALpg%3D%3D"><i
+                     class="fa-brands fa-linkedin fa-lg mq-icon" style="color: #000000;"></i></a>
+               <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2BKhbmwDlR32%2F2Y7ogYALpg%3D%3D"
+                  class="social-links">LinkdIn</a>
+
+               <a href=""><i class="fa-brands fa-square-github fa-lg mq-icon" style="color: #000000;"></i></a>
+               <a href="" class="social-links"> / Github /</a>
+
+               <i class="fa-brands fa-square-instagram fa-lg mq-icon" style="color: #000000;"></i>
+               <a href="" class="social-links">Instagram</a>
+            </div>
+         </nav>
+         <!-- introduce my self -->
+         <div class="my-picture-container">
+            <img src="design/20240115_191638.jpg" alt="hassan" class="my-picture">
+         </div>
+         <div class="name">
+            Hassan Jahandideh👋
+         </div>
+         <div class="introducing-mySelf">
+            Building modern, <br> interactive, and <br> user-friendly websites.
+         </div>
+         <!-- latest project -->
+         <div class="latest-project-container">
+            <a href="" class="latest-project">Latest Project</a>
+         </div>
