@@ -20,6 +20,7 @@ body {
    margin: 20px 0 0 40px;
    border-radius: 50px;
    display: flex;
+   height: 38px;
 }
 
 .email {
@@ -32,6 +33,7 @@ body {
    justify-content: center;
    margin: 10px;
    padding: 5px;
+   margin-top: 7px;
 }
 
 button {
@@ -49,18 +51,13 @@ button {
    color: rgb(101, 33, 165);
 }
 
-.cv-container {
-   position: absolute;
-   margin-top: 31px;
-   margin-left: 340px;
-}
-
 .cv {
    background-color: white;
    border: none;
    border-radius: 50px;
-   padding: 10px 36px 10px 36px;
+   padding: 9px 35px 9px 35px;
    font-family: "Poppins", sans-serif;
+   font-size: 13px;
    font-weight: 600;
    font-style: normal;
    text-decoration: none;
@@ -69,6 +66,9 @@ button {
 
 .cv:hover {
    text-decoration: underline black;
+}
+#email-btn {
+   display: none;
 }
 
 .social-links-container {
@@ -111,18 +111,13 @@ button {
 }
 
 .name {
+   position: fixed;
+   top: 210px;
+   left: calc(63% - 59.5px);
    background-color: white;
-   width: 119px;
    padding: 10px;
    border-radius: 50px;
-   position: absolute;
-   display: flex;
-   margin-left: 510px;
-   margin-top: -100px;
    font-family: "Roboto Condensed", sans-serif;
-   font-optical-sizing: auto;
-   font-weight: 500;
-   font-style: normal;
    font-size: 13px;
    transform: skewY(-8deg);
    animation: moveBorder 2s infinite;
@@ -174,6 +169,10 @@ button {
    text-decoration: underline;
 }
 
+.fa-lg {
+   display: none;
+}
+
 @media only screen and (max-width:730px) {
    .social-links {
       display: none;
@@ -181,13 +180,42 @@ button {
 
    .mq-icon {
       display: inline-flex;
-      margin-top: 20px;
+      margin-top: 40px;
       float: right;
       margin-right: 10px;
    }
+   .social-links-container {
+      margin-right: 10px;
+      width: 20;
+   }
 
-   .email-container,
-   .cv-container {
+   .copy-btn {
       display: none;
+   }
+   #email-btn {
+      display: inline;
+      text-decoration: none;
+      font-size: 13px;
+   }
+   .email {
+      display: none;
+   }
+   .cv-container {
+      left: -45%;
+      justify-content: left;
+      float: left;
+      margin-top: 75px;
+   }
+   .copy-container {
+      margin-left: -22px;  
+      
+   }
+   .email-container {
+      margin-top: 31px;
+      border: none;
+   }
+
+   .latest-project-container {
+      margin-top: 30px;
    }
 }
