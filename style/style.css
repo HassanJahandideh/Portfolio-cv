@@ -92,7 +92,7 @@ button {
    text-decoration: underline;
 }
 
-.mq-icon {
+.mq-icon, .fa-2xl {
    display: none;
 }
 
@@ -111,9 +111,9 @@ button {
 }
 
 .name {
-   position: fixed;
+   position: absolute;
    top: 210px;
-   left: calc(63% - 59.5px);
+   left: calc(55% - 59.5px);
    background-color: white;
    padding: 10px;
    border-radius: 50px;
@@ -169,8 +169,53 @@ button {
    text-decoration: underline;
 }
 
-.fa-lg {
+.fa-2xl {
    display: none;
+}
+
+.under-intro-container {
+   margin-top: 350px;
+}
+.services-hr {
+   width: 70%;
+   border: 1px solid rgb(233, 231, 231);
+}
+.servicestext-container {
+   display: flex;
+   justify-content: center;
+   margin-top: -30px;
+}
+.servicestext-border {
+   border: none;
+   background-color: rgb(180, 173, 173);
+   width: 60px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 50px;
+   transform: skewY(-8deg);
+   color: black;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 200;
+   font-style: normal;
+}
+
+.services-container {
+
+}
+.about-services {
+   
+}
+
+@media only screen and (max-width:910px) {
+   .name {
+      left: calc(60% - 59.5px);
+   }
+}
+@media only screen and (max-width:590px) {
+   .name {
+      left: calc(65% - 59.5px);
+   }
 }
 
 @media only screen and (max-width:730px) {
