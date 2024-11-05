@@ -92,7 +92,7 @@ button {
    text-decoration: underline;
 }
 
-.mq-icon, .fa-2xl {
+.mq-icon {
    display: none;
 }
 
@@ -169,15 +169,12 @@ button {
    text-decoration: underline;
 }
 
-.fa-2xl {
-   display: none;
-}
-
 .under-intro-container {
-   margin-top: 350px;
+   margin-top: 250px;
+   
 }
 .services-hr {
-   width: 70%;
+   width: 80%;
    border: 1px solid rgb(233, 231, 231);
 }
 .servicestext-container {
@@ -201,10 +198,34 @@ button {
 }
 
 .services-container {
+   margin-top: 60px;
+   display: flex;
+   gap: 100px;
+   align-items: center;
+   justify-content: center;
+}
+.services {
+   
+}
+.services-logo-container {
+   margin-top: 0px;
+}
+.services-logo {
 
 }
+.services-title {
+   margin-top: 20px;
+   font-family: "Rubik", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+}
 .about-services {
-   
+   margin-top: 10px;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
 }
 
 @media only screen and (max-width:910px) {
@@ -262,5 +283,40 @@ button {
 
    .latest-project-container {
       margin-top: 30px;
+   }
+
+   .services-hr {
+      margin-top: -150px;
+   }
+
+   .services-container {
+      flex-direction: column;
+      /* تغییر جهت به عمودی برای فضای کمتر */
+      gap: 10px;
+      /* فاصله‌ها را کاهش می‌دهیم */
+      padding: 10px;
+      /* ایجاد فاصله داخلی */
+      margin-top: -10px;
+   }
+
+   .services {
+      text-align: center;
+      margin-top: 20px;
+      /* متن را وسط‌چین می‌کنیم */
+   }
+
+   .services-logo i {
+      font-size: 1.5rem;
+      /* کاهش اندازه آیکون‌ها */
+   }
+
+   .services-title {
+      font-size: 1rem;
+      /* کاهش اندازه متن عنوان */
+   }
+
+   .about-services {
+      font-size: 0.8rem;
+      /* کاهش اندازه متن توضیحات */
    }
 }

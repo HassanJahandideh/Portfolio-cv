@@ -37,3 +37,17 @@
          <div class="latest-project-container">
             <a href="" class="latest-project">Latest Project</a>
          </div>
+
+         <div class="services">
+            <div class="services-logo-conatainer">
+               <div class="services-logo">
+                  
+               </div>
+            </div>
+            <div class="services-title">
+               
+            </div>
+            <div class="about-services">
+               
+            </div>
+         </div>
