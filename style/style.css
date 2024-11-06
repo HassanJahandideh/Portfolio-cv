@@ -92,7 +92,7 @@ button {
    text-decoration: underline;
 }
 
-.mq-icon {
+#mq-icon {
    display: none;
 }
 
@@ -228,6 +228,61 @@ button {
    font-style: normal;
 }
 
+.contact-container {
+   background-color: rgb(226, 224, 224);
+   margin-top: 80px;
+   height: 500px;
+   border-radius: 130px 130px 0 0;
+}
+.contact-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hand-logo-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   background-color: white;
+}
+.handshake {
+   width: 80%;
+   height: auto;
+   border: none;
+   padding: 20px;
+}
+.contact-text {
+   margin-top: 20px;
+   text-align: center;
+   font-family: "Rubik", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 50px;
+}
+.contact-buttons-container {
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.email-me {
+   background-color: white;
+   padding: 20px;
+   border-radius: 50%;
+   width: 20px;
+}
+.whatsapp {
+   background-color: white;
+   padding: 20px;
+   border-radius: 50%;
+   width: 20px;
+}
+
 @media only screen and (max-width:910px) {
    .name {
       left: calc(60% - 59.5px);
@@ -244,7 +299,7 @@ button {
       display: none;
    }
 
-   .mq-icon {
+   #mq-icon {
       display: inline-flex;
       margin-top: 40px;
       float: right;
@@ -291,32 +346,25 @@ button {
 
    .services-container {
       flex-direction: column;
-      /* تغییر جهت به عمودی برای فضای کمتر */
       gap: 10px;
-      /* فاصله‌ها را کاهش می‌دهیم */
       padding: 10px;
-      /* ایجاد فاصله داخلی */
       margin-top: -10px;
    }
 
    .services {
       text-align: center;
       margin-top: 20px;
-      /* متن را وسط‌چین می‌کنیم */
    }
 
    .services-logo i {
       font-size: 1.5rem;
-      /* کاهش اندازه آیکون‌ها */
    }
 
    .services-title {
       font-size: 1rem;
-      /* کاهش اندازه متن عنوان */
    }
 
    .about-services {
       font-size: 0.8rem;
-      /* کاهش اندازه متن توضیحات */
    }
 }
