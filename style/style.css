@@ -96,7 +96,6 @@ button {
    display: none;
 }
 
-.introduce-container {}
 
 .my-picture-container {
    display: flex;
@@ -171,10 +170,10 @@ button {
 
 .under-intro-container {
    margin-top: 250px;
-   
+   margin-top: 400px;
 }
 .services-hr {
-   width: 80%;
+   width: 100%;
    border: 1px solid rgb(233, 231, 231);
 }
 .servicestext-container {
@@ -204,14 +203,8 @@ button {
    align-items: center;
    justify-content: center;
 }
-.services {
-   
-}
 .services-logo-container {
    margin-top: 0px;
-}
-.services-logo {
-
 }
 .services-title {
    margin-top: 20px;
@@ -231,11 +224,8 @@ button {
 .contact-container {
    background-color: rgb(226, 224, 224);
    margin-top: 80px;
-   height: 500px;
+   height: 700px;
    border-radius: 130px 130px 0 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 .contact {
    display: flex;
@@ -293,6 +283,36 @@ button {
    justify-content: center;
    display: flex;
    text-decoration: none;
+}
+
+.footer-hr {
+   margin-top: 100px;
+   border: 1px solid rgb(243, 238, 238);
+   width: 90%;
+}
+.date-text {
+   margin: 50px 45px 0;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+}
+.footer-links-container {
+   margin-top: -19px;
+   margin-right: 34px;
+   float: right;
+}
+.footer-links {
+   padding: 10px;
+   text-decoration: none;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 200;
+   font-style: normal;
+   color: black;
+}
+#footer-icon-link {
+   display: none;
 }
 
 @media only screen and (max-width:910px) {
@@ -378,5 +398,13 @@ button {
 
    .about-services {
       font-size: 0.8rem;
+   }
+
+   .footer-links {
+      display: none;
+   }
+   #footer-icon-link {
+      display: inline;
+      padding: 5px;
    }
 }
