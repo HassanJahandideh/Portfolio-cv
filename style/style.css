@@ -233,11 +233,15 @@ button {
    margin-top: 80px;
    height: 500px;
    border-radius: 130px 130px 0 0;
-}
-.contact-container {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+.contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
 }
 .hand-logo-container {
    display: flex;
@@ -275,12 +279,20 @@ button {
    padding: 20px;
    border-radius: 50%;
    width: 20px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   text-decoration: none;
 }
 .whatsapp {
    background-color: white;
    padding: 20px;
    border-radius: 50%;
    width: 20px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   text-decoration: none;
 }
 
 @media only screen and (max-width:910px) {
